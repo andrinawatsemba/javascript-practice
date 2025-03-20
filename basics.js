@@ -27,3 +27,7 @@ function greet(name) {
   }
   greet("Kenneth");
   
+  // reversing a string
+  let str = "JavaScript";
+let reversed = str.split("").reverse().join("");
+console.log(reversed);
