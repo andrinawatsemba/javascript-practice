@@ -31,3 +31,8 @@ function greet(name) {
   let str = "JavaScript";
 let reversed = str.split("").reverse().join("");
 console.log(reversed);
+
+// Find the Largest Number in an Array
+let numbers = [2, 45, 10, 67, 23];
+let max = Math.max(...numbers);
+console.log("Max:", max);
