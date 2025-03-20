@@ -49,3 +49,12 @@ let person = {
   //Generate a Random Number (0 to 100)
   let randomNum = Math.floor(Math.random() * 101);
 console.log("Random Number:", randomNum);
+
+//  Check if a String is a Palindrome
+function isPalindrome(str) {
+    let reversed = str.split("").reverse().join("");
+    return str === reversed;
+  }
+  console.log(isPalindrome("madam")); // true
+  console.log(isPalindrome("hello")); // false
+  
