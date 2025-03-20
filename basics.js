@@ -36,3 +36,13 @@ console.log(reversed);
 let numbers = [2, 45, 10, 67, 23];
 let max = Math.max(...numbers);
 console.log("Max:", max);
+
+//Simple Object and Accessing Values
+let person = {
+    name: "Jane",
+    age: 22,
+    hobby: "Reading"
+  };
+  console.log(person.name);
+  console.log(person["hobby"]);
+  
