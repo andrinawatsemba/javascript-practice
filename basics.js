@@ -46,3 +46,6 @@ let person = {
   console.log(person.name);
   console.log(person["hobby"]);
   
+  //Generate a Random Number (0 to 100)
+  let randomNum = Math.floor(Math.random() * 101);
+console.log("Random Number:", randomNum);
